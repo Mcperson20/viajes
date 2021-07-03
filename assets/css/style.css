@@ -18,3 +18,9 @@ span{
 span:nth-child(1n) {
     margin-top: 10px;
   }
+.destacados{
+    background-color: #000;
+}
+.contacto{
+    background-color: #000;
+}
