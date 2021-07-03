@@ -1,3 +1,11 @@
+/* COMPORTAMIENTOS AL PROYECTO COMPLETO */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* NAV */
 nav{
     background-color: none;
 }
@@ -5,11 +13,14 @@ nav img{
     width: 30px;
     padding-right: 5px;
 }
+/* SOMOS */
 .somos{
     background-color: #000;
 }
 hr{
     height: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;;
 }
 span{
     height: 50px;
@@ -18,9 +29,25 @@ span{
 span:nth-child(1n) {
     margin-top: 10px;
   }
+/* DESTACADOS */
 .destacados{
     background-color: #000;
 }
+.destacados img{
+    max-height: 160px;
+}
+/* CONTACTO */
 .contacto{
     background-color: #000;
+}
+/* FOOTER */
+footer p{
+    margin: 0;
+    font-size: 2rem;
+}
+footer a{
+    color: white;
+}
+footer i{
+    padding-right: 10px;
 }
