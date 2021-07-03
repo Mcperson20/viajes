@@ -5,3 +5,16 @@ nav img{
     width: 30px;
     padding-right: 5px;
 }
+.somos{
+    background-color: #000;
+}
+hr{
+    height: 1px;
+}
+span{
+    height: 50px;
+    margin-bottom: 10px;
+}
+span:nth-child(1n) {
+    margin-top: 10px;
+  }
